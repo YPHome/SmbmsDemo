@@ -47,6 +47,7 @@ public class User {
     }
 
     public void setUserRoleName(String userRoleName){ this.userRoleName=userRoleName; }
+    public String getUserRoleName(){return userRoleName;};
 
 
     public String getUserCode() {

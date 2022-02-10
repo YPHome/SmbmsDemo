@@ -39,7 +39,7 @@ public class RoleServiceImpl implements RoleService{
     }
 
     @Test
-    public void test(){
+    public void test() {
         RoleServiceImpl roleService = new RoleServiceImpl();
         //      int userCount = userService.getUserCount(null,1);
         List<Role> list = null;
